@@ -504,6 +504,12 @@ body.offcanvas {
   margin-top: 5px;
   
   border: 1px solid #e6e6e6 !important; }
+  
+  .panel-bod2 {
+  padding:none;
+  margin-top: 5px;
+  
+  border: 1px solid #19D3F9 !important; }
 
 .timeline-centered {
   position: relative;
@@ -782,6 +788,14 @@ body.offcanvas {
       background: #2c98f0; }
     .progress-bar.color-1 span {
       color: #2c98f0; }
+	  
+	  .progress-bar.color-1-2 {
+    background: none; }
+    .progress-bar.color-1-2:after {
+      background: none; }
+    .progress-bar.color-1-2 span {
+      color: #2c98f0; }
+	  
   .progress-bar.color-2 {
     background: #ec5453; }
     .progress-bar.color-2:after {
@@ -1263,3 +1277,6 @@ body.offcanvas {
 transform: scale(1.04);
 }
 
+.bordercolor {
+  border-color: blue;
+}
